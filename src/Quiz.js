@@ -5,21 +5,22 @@ class Quiz extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      quizdata: quizData.quiz_questions
+      quiz_position: 1
     };
   }
   render() {
     return (
       <div>
         <div className="QuizQuestion">
-          {this.state.quizdata.map((data, index) => {
+          {/* {this.state.quizdata.map((data, index) => {
             return (
               <div key={index}>
                 {" "}
                 {data.id} . {data.instruction_text}{" "}
               </div>
             );
-          })}
+          })} */}
+          {quizData.quiz_questions[0].instruction_text}
         </div>
       </div>
     );
