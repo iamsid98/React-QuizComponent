@@ -1,5 +1,5 @@
 {
-  "name": "build-a-quiz-component-with-react",
+  "name": "react-quiz",
   "version": "0.1.1",
   "private": true,
   "dependencies": {
@@ -48,5 +48,7 @@
     "esprima": "4.0.0",
     "react-test-renderer": "16.3.1",
     "sinon": "5.0.1"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
